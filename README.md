@@ -1,18 +1,26 @@
-## Getting Started
+# 📘 Projeto: Contador com Tratamento de Exceção
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto em Java solicita dois números inteiros do usuário e imprime uma contagem entre eles. Ele inclui validação para garantir que o segundo número seja maior que o primeiro, utilizando uma exceção personalizada (`ParametrosInvalidosException`).
 
-## Folder Structure
+## 🎯 Objetivo
 
-The workspace contains two folders by default, where:
+Praticar os conceitos de:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Entrada de dados com `Scanner`
+- Condicionais e laços (`if`, `for`)
+- Criação e uso de exceções personalizadas
+- Boas práticas com `try/catch`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Funcionalidades
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Solicita dois parâmetros do usuário
+- Valida se o segundo número é maior que o primeiro
+- Imprime a contagem de números entre os dois valores
+- Exibe mensagem de erro amigável se a regra não for atendida
 
-## Dependency Management
+## 🛠️ Tecnologias Utilizadas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java 21
+- Classe `Scanner` para entrada de dados
+- Classe personalizada de exceção (`ParametrosInvalidosException`)
+- Terminal/Console para execução
